@@ -2,7 +2,7 @@ import pandas as pd
 from sqlalchemy import create_engine
 
 # 🔹 PostgreSQL connection string with SSL
-conn_str = "postgresql://avnadmin:AVNS_gfgTO8VJrwgd96ey2bW@pg-2461fc86-pascalchidera21-0ad9.h.aivencloud.com:14160/defaultdb?sslmode=require"
+conn_str = "postgresql://avnadmin:"PASSWORD"@pg-2461fc86-pascalchidera21-0ad9.h.aivencloud.com:14160/defaultdb?sslmode=require"
 
 # 🔹 Create engine
 engine = create_engine(conn_str)

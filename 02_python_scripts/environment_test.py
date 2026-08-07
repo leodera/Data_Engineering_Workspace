@@ -6,11 +6,11 @@ file_path = r"C:\Users\Dell\Downloads\Movie_Data.csv"
 
 # 2. Database Connection Strings
 # PostgreSQL Connection (Aiven Cloud SSL Enabled)
-pg_url = "postgresql+psycopg2://avnadmin:AVNS_gfgTO8VJrwgd96ey2bW@pg-2461fc86-pascalchidera21-0ad9.h.aivencloud.com:14160/defaultdb?sslmode=require"
+pg_url = "postgresql+psycopg2://avnadmin:"PASSWORD"@pg-2461fc86-pascalchidera21-0ad9.h.aivencloud.com:14160/defaultdb?sslmode=require"
 pg_engine = create_engine(pg_url, pool_pre_ping=True)
 
 # MySQL Connection (Aiven Cloud SSL Enabled)
-mysql_url = "mysql+pymysql://avnadmin:AVNS_tkMbRWpQWYzHFqbAR8-@mysql-37f12a2a-pascalchidera21-0ad9.i.aivencloud.com:14160/defaultdb"
+mysql_url = "mysql+pymysql://"PASSWORD"@mysql-37f12a2a-pascalchidera21-0ad9.i.aivencloud.com:14160/defaultdb"
 mysql_engine = create_engine(
     mysql_url,
     connect_args={"ssl": {"ssl_mode": "REQUIRED"}},
