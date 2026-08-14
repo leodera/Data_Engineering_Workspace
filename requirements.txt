@@ -4,6 +4,3 @@ plotly
 psycopg2-binary
 sqlalchemy
 python-dotenv
-db_utils
-run_pg_query
-run_mysql_query
