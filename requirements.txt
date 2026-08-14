@@ -1,0 +1,9 @@
+streamlit
+pandas
+plotly
+psycopg2-binary
+sqlalchemy
+dot_env
+db_utils
+run_pg_query
+run_mysql_query
